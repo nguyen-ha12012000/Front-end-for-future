@@ -1,1 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div id="tableCap">
+        <div class="firstTitle">
+            <p>This is table caption</p>
+        </div>
+        <table border="1">
+            <tr>
+                <th>comlumn 1</th>
+                <th>comlumn 2</th>
+                <th>comlumn 3</th>
+                <th>comlumn 4</th>
+                <th>comlumn 5</th>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td rowspan="3">Data 2</td>
+                <td>Data 3</td>
+                <td>Data 4</td>
+                <td>Data 5</td>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 3</td>
+                <td>Data 4</td>
+                <td>Data 5</td>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 3</td>
+                <td>Data 4</td>
+                <td>Data 5</td>
+            </tr>
+        </table>           
+    </div>
 
+
+    <div id="formatText">
+        <div>
+            <h2>Format text <span style= "background-color :yellow">marked</span> </h2>
+            <p>Please use only HTML without CSS</p>
+        </div>
+        <div>
+            <ul>
+                <li>This word is <i>emphasized</i></li>
+                <li>This word is <i>italic</i></li>
+                <li>This word is <sup>superscripted</sup> </li>
+                <li>This word is <sub>subscripted</sub></li>
+                <li>This word is <u>inserted</u></li>
+                <li>This word is <del>delete</del></li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <div id="NestedList">
+        <h2>Nested list</h2>
+        <ol>
+            <li>One</li>
+            <ul>
+                <li>Apple</li>
+                <li>Orange</li>
+                <li>Others</li>
+                <ol>
+                    <li>Text 1</li>
+                    <li>Text 2</li>
+                    <li>Text 3</li>
+                </ol>
+                <li>Cucumber</li>
+            </ul>
+            <li>Two</li>
+            <li>Three</li>
+        </ol>
+    </div>
+
+
+    <div id="htmlTable">
+        <h2>HTML TABLE</h2>
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+            </tr>
+            <tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+                <td>Australia</td>
+            </tr>
+            <tr>
+                <td>Island Tranding</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>Laughing Bacchus Wineccellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+    <div id="tableGallery">
+        <div>
+            <h2>Table gallery</h2>
+            <table>
+                <tr>
+                    <th>Image column 1</th>
+                    <th>Image column 2</th>
+                    <th>Image column 3</th>
+                </tr>
+                <tr>
+                    <td><img src="img/Động vật.jpg" alt="Kirigami" width="150" height="200"></td>
+                    <td><img src="img/Động vật.jpg" alt="Kirigami" width="150" height="200"></td>
+                    <td><img src="img/Động vật.jpg" alt="Kirigami" width="150" height="200"></td>
+                </tr>
+                <tr>
+                    <td><img src="img/Động vật.jpg" alt="Kirigami" width="150" height="200"></td>
+                    <td><img src="img/Động vật.jpg" alt="Kirigami" width="150" height="200"></td>
+                    <td><img src="img/Động vật.jpg" alt="Kirigami" width="150" height="200"></td>
+                </tr>
+                <tr>
+                    <td><img src="img/Động vật.jpg" alt="Kirigami width="150" height="200"></td>
+                    <td><img src="img/Động vật.jpg" alt="Kirigami" width="150" height="200"></td>
+                    <td><img src="img/Động vật.jpg" alt="Kirigami" width="150" height="200"></td>
+                </tr>
+            </table>
+        </div>
+            <div>
+                <p>Paragraph with devider</p>
+                <hr width="50%" align="left">
+                <p>This is a</p>
+                <p>paragraph with a line break</p>
+            </div>
+    </div>
+
+</body>
+</html>

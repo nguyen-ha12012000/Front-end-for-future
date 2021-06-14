@@ -1,0 +1,38 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.component {
+    background-color: rgb(51, 1, 51);
+    width: 700px;
+    height: 350px;
+}
+
+.des__img {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 5%;
+}
+
+.des__content {
+    position: absolute;
+    bottom: 280px;
+    left: 110px;
+}
+.des_public {
+    color: rgb(235, 55, 115);
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 130px;
+    margin: 10px 0 10px 0;
+}
+
+.des_name {
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+.des__footer {
+
+}

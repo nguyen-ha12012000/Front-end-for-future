@@ -1,0 +1,51 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.component {
+    background-color: rgb(158, 156, 156);
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content {
+    text-align: left;
+    background-color: white;
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    left: 75px;
+    top: 270px;
+}
+
+.name {
+    color: rgb(66, 65, 65);
+    position: absolute;
+    padding: 15px 10px;
+}
+
+.cost {
+    font-weight: bold;
+    position: absolute;
+    padding: 55px 10px;
+}
+
+.address {
+    color: gray;
+    position: absolute;
+    padding: 90px 10px;
+}
+
+.sold {
+    color: gray;
+    position: absolute;
+    padding: 90px 10px;
+    left: 145px;
+}

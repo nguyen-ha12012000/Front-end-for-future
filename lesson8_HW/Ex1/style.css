@@ -1,0 +1,99 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.component {
+    background-color: rgba(0, 0, 0, 0.575);
+    height: 500px;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.des__img {
+    opacity: .9;
+    padding: 20px 0;
+}
+
+
+.des__logo {
+    border-radius: 50% ;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+
+.des__content {
+    position: relative;
+}
+.des__version,
+.des__name1,
+.des__name2 {
+    color: white;
+    background-color: red;
+    font-size: 32px;
+    font-weight: bold ;
+    width: 165px ;
+    padding: 8px;
+    box-shadow: 5px 5px white;
+    
+    position: absolute;
+    bottom: 160px;
+    left: 80px;
+}
+
+.des__name2 {
+    font-size: 36px;
+    width: 165px ;
+    bottom: 90px;
+}
+
+.des__version {
+    font-size: 20px;
+    width:70px ;
+    bottom: 40px;
+    left: 130px;
+}
+
+.des__time {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.692);
+    left: 510px;
+    bottom: 30px;
+}
+
+.des__footer {
+    position: relative;
+    color: white;
+    top: -10px;
+}
+
+.des__footer__logo {
+    border-radius: 50% ;
+
+    position: absolute;
+    left: 60px;
+
+}
+
+.des__footer__name {
+    position: absolute;
+    left: 120px;
+}
+
+.des__footer__source {
+    position: absolute;
+    left: 120px;
+    top: 20px;
+    opacity: .8;
+}
+
+.des__footer__time {
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    opacity: .8;
+}
+
